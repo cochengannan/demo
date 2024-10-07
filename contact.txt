@@ -1,0 +1,8 @@
+This website library is the private library management system 
+we created this website to manage the stocks in the library to what and all 
+the stocks are available and the what and the stock are given to reading 
+purpose to the particular users.  We are able to get those deatils by 
+user details .
+The website is created by the person Cochengannan.k he is a student 
+who's completed the bachelors degrees in the 2023. for the more details 
+call to the number 9095143416.

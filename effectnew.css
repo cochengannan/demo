@@ -1,0 +1,36 @@
+#frm
+{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("F:\project/newuser.jpg");
+    background-size: 100px;
+cursor: all-scroll;   
+
+}
+body
+{
+    border-color: rgb(5, 243, 243);
+    border-spacing: 10px;
+    border-width: 20px;
+    border-radius: 20px;
+    border-style: groove;
+    letter-spacing: 2;
+    cursor: pointer;
+}
+#mar
+{
+    background-color: red;
+    font-size: 20px;
+    letter-spacing: 3;
+
+}
+#list
+{
+    list-style: none;
+    letter-spacing: 5;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+}

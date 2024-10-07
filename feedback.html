@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<head>
+    <TITLE>
+       Feedback form 
+    </TITLE>
+    <style>
+        #fed{
+        
+            padding: 20px 50px; 
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: normal;
+        }
+        #btn
+        {
+        
+    padding: 0px 20px 10px 10px;
+            background-image:linear-gradient(rgb(7, 7, 252),rgb(255, 255, 3)) ;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            letter-spacing: 1px;
+
+        }
+        #lbl
+        {
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        #mark
+        {
+            padding: 20px 50px 20px 20px;   
+            justify-content: center;
+            letter-spacing: 1px;
+        }
+        #nam
+        {
+            padding: 20px 50px 20px 20px;   
+            justify-content: center;
+            letter-spacing: 2px;
+        }
+    </style>
+    
+</head>
+<body>
+    <img src="F:\project\logo.png">
+    <form id="fed" action="condb.py">
+        <label id="lbl">Student Name:</label>
+<input type="text" placeholder="Enter the name" name="username" value="" ><br>
+<label id="lbl" name="rollno"> Enroll No:</label>
+<input type="text" placeholder="Enter your Enroll No" name="rollno" value="" ><br>
+<label id="lbl" >Course:</label>
+<select name="course">
+    <option name="Course" id="sel" value="">Select the course name</option>
+    <option name="Course" id="sel" value="Hdca Programming">Hdca Programming</option>
+    <option name="Course" id="sel" value="DCA Programming">DCA Programming</option>
+    <option name="Course" id="sel" value="Hdca tally">Hdca Tally</option>
+    <option name="Course" id="sel" value="Dca tally">Dca Tally</option>
+    <option name="Course" id="sel" value="adpp">ADPP</option>
+    <option name="Course" id="sel" value="adjp">ADJP</option>
+
+</select name="staff">
+<div>
+<label id="lbl">Staff Name:</label><br>
+<input type="radio" name="Staff" id="nam" value="Ganesh">Ganesh<br>
+<input type="Radio" name="Staff" id="nam" value="siva"> Siva<br>
+<input type="radio" name="Staff" id="nam" value="karthi">Karthikeyan<br>
+<input type="radio" name="Staff" id="nam" value="sudharshan">Sudharshan<br>
+<input type="radio" name="Staff" id="nam" value="pavi">Pavithra<br>
+<input type="radio" name="Staff" id="nam" value="jeevi">Jeevitha<br>
+</div>
+<div>
+    <label id="lbl">
+        Rating:
+    </label><br>
+    <input type="radio"name="rating" id="mark" value="1">1<br>
+    <input type="radio"name="rating" id="mark" value="2">2<br>
+    <input type="radio"name="rating" id="mark" value="3">3<br>
+    <input type="radio"name="rating" id="mark" value="4">4<br>
+    <input type="radio"name="rating" id="mark" value="5">5<br>
+</div>
+<div>
+    <label id="lbl">More about your staff:</label>
+    <textarea inputmode="text" name="more" >
+
+    </textarea>
+</div><br>
+<div>
+    <button type="submit" onclick="submitter()" id="btn" action="condb.py"><br>
+        Submit your response
+    </button>
+
+</div>
+    </form>
+    <script>
+        
+        function submitter()
+        {
+            alert("The feedback is submitted successfullly for your staff");
+            alert("Thank you for your valuable Feedback");
+        }
+    </script>
+</body>
+</html>

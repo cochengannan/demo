@@ -1,0 +1,48 @@
+#list1
+{
+    list-style: none;
+    list-style-position: initial;
+    letter-spacing:4;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#btn3
+{
+    letter-spacing: 3px;
+    cursor: pointer;
+    box-sizing: 20%;
+    background-color: rgb(89, 250, 83);
+    border-radius: 10px;
+    border-style: groove ;
+    padding: 10px;
+}
+#btn3:hover
+{
+    letter-spacing: 3px;
+    background-image: linear-gradient(pink,purple);
+    box-shadow:rgb(7, 171, 221)0px 7px 29px 10px;
+}
+#btn3:active
+{
+    letter-spacing: 3px;
+    background-image: linear-gradient(pink,purple);
+    box-shadow:rgb(7, 171, 221)0px 7px 29px 10px;
+    transform: translatey(10px);
+}
+body
+{
+    justify-content: center;
+background-image: url("F:\project/logsucs.jpg");
+background-repeat: no-repeat;
+background-size: 1400px;
+padding: 50px;
+border: 10px;
+border-style: groove;
+border-color:black;
+}
+#frm
+{
+    padding: 50px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+}

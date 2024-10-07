@@ -1,0 +1,113 @@
+
+ #si
+ {
+    align-items: center;
+    border: none;
+    box-sizing: 10px;
+    padding: 60px;
+    height: 60%;
+    width: 50%;
+    background-color: rgb(39, 38, 37);
+
+    
+ }
+ .formdesign
+ {
+    padding: 30px;
+    
+ }
+input
+{
+    width: 100%;
+    height: 30px;
+}
+button
+{
+    width: 50%;
+    padding: 5px;
+
+}
+st
+{
+    padding: 5px;
+}
+bt
+{
+    padding: 5px;
+}
+ body
+ {
+background-image: url("F:\project/bgimage.jpg");
+enable-background: new;
+box-sizing: content-box;
+background-size: 1000px;
+padding: 10px;
+ }
+ #bt
+ {
+background-image: radial-gradient(red,rgb(250, 234, 13));
+font-size: medium;
+font-weight: lighter;
+font-family: 'Courier New', Courier, monospace;
+font-size-adjust: initial;    
+ }
+ #st
+ {
+    background-image: radial-gradient(rgb(103, 103, 233),rgb(63, 235, 63));
+font-size: medium;
+font-weight: lighter;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size-adjust: initial;  
+}
+#st:hover
+{
+    
+    box-shadow: aqua 0px 7px 29px 10px;
+justify-content: center;
+}
+ #list
+ {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(253, 249, 249);
+    padding: 1px;
+    list-style-type: none;
+    initial-letter-align: unset;
+    letter-spacing: 1;
+    padding-right: 10px;
+    padding-inline: 50%;
+    padding-left: 20px;
+    border-spacing: 20%;
+    border-style: groove;
+    border-color: antiquewhite;
+
+ }
+ #siva
+ {
+  letter-spacing: 2;
+  font-size: 25px;
+  background-image: linear-gradient(rgb(117, 235, 117),white)
+  font-family:Times New Roman;
+  background-image:linerar-gradient(blue,purple)
+
+ }
+ #list1
+ {
+    font-size: 30px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    list-style-type: none;
+    letter-spacing: 5;
+ }
+
+#btn3
+{
+    padding: 10px;
+    background-color:aqua ;
+    padding-inline: 10px;
+    box-shadow: 10%;
+    box-sizing: 20px;
+    backface-visibility: hidden;
+    background-image: linear-gradient(rgb(235, 131, 131),rgb(142, 238, 142));
+}
